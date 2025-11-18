@@ -1,5 +1,4 @@
 calc_tamanho_amostra_interativa <- function() {
-
   # Solicita os parâmetros ao usuário via console
   conf.level <- as.numeric(readline(prompt = "Digite o nível de confiança (ex: 0.95 para 95%): "))
   s <- as.numeric(readline(prompt = "Digite o desvio padrão: "))
@@ -21,6 +20,3 @@ calc_tamanho_amostra_interativa <- function() {
 
   return(N)
 }
-
-
-
